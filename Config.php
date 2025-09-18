@@ -9,7 +9,7 @@ $host = $_SERVER['HTTP_HOST'];
 // Dossier de ton projet (adapter si nécessaire)
 // Exemple : "/ChurchEps/" si ton site est dans http://localhost:8080/ChurchEps/
 // Mettre "/" si ton site est directement à la racine
-$project = "/ChurchEps/";
+$project = "/churchEps/";
 // URL de base dynamique
 define("BASE_URL", $protocol . $host . $project);
 $SITE_NAME ="Eglise Pentecotiste des Secouristes";
