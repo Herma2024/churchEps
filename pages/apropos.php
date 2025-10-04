@@ -1,21 +1,37 @@
 <?php
 $page_title = "A propos";
-include (__DIR__ ."/../includes/header.php");
+include (__DIR__ ."/../includes/header2.php");
 ?>
-  
-   <section id="pricing" class="pricing bg-secondary">
-      <div class="container mt-5 mb-5 pt-5">
 
-            <div class="section-title" >
-                 <h2>A propos de Nous</h2>
-            </div>
-            <div data-aos="fade-up" >
-            <p class="lead " style="text-align: justify; color:white;">
-            L'ÉGLISE PENTECÔTISTE DES SECOURISTES est une église dynamique et accueillante qui croit en la puissance de Dieu pour transformer les vies. Nous sommes engagés à servir Dieu et à répandre son amour à travers nos actions et nos prières.
+ <main id="main">
+
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
            
-            </p>
-            <div class="text-center">
-            <i class="bi bi-heart custom-heart"></i>
+                 <h2>A propos de Nous</h2>
+          
+          <ol>
+            <li><a href="<?php echo BASE_URL; ?>index.php">Accueil</a></li>
+            <li>Apropos</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs Section -->
+   <section id="pricing" class="pricing">
+      <div class="container mt-5 mb-5 ">
+
+           
+            <div class="col-xl-8 offset-xl-2 text-center" data-aos="fade-up" >
+                <p style="color:black;">
+                <strong>L'ÉGLISE PENTECÔTISTE DES SECOURISTES </strong>est une église dynamique et accueillante qui croit en la puissance de Dieu pour transformer les vies. Nous sommes engagés à servir Dieu et à répandre son amour à travers nos actions et nos prières.
+            
+                </p>
+                <div class="text-center">
+                <i class="bi bi-heart custom-heart"></i>
             </div>
             
         </div>
@@ -83,6 +99,7 @@ include (__DIR__ ."/../includes/header.php");
            
          </div>
     </section><!-- End Pricing Section -->
+</main>
 
  <!-- ======= Footer ======= -->
  <?php include __DIR__ ."/../includes/footer.php";  ?>

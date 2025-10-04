@@ -1,21 +1,38 @@
 <?php
 $page_title = "Faire un don";
-include (__DIR__ ."/../includes/header.php");
+include (__DIR__ ."/../includes/header2.php");
 ?>
-  
-   <section id="pricing" class="pricing bg-secondary">
-      <div class="container mt-5 mb-5 pt-5">
+
+</style>
+  <body>
+     <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+           
+                 <h2>Faire le don</h2>
+          
+          <ol>
+            <li><a href="<?php echo BASE_URL; ?>index.php">Accueil</a></li>
+            <li>donner</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs Section -->
+   <section id="pricing" class="pricing bg-light">
+      <div class="container mt-5 mb-5">
 
         <div class="section-title" >
           <h2>Faire un Don</h2>
           </div>
           <div data-aos="fade-up" >
-          <p class=" leads" style="text-align: justify; color:white;" >
+          <p class=" col-xl-8 offset-xl-2 text-center">
               Merci pour votre générosité et votre soutien à l'œuvre de Dieu. 
               Chaque contribution, quelle que soit sa taille, nous aide à continuer nos missions,
              à soutenir les plus démunis et à développer les activités de l'église.
           </p>
-          <p style="text-align: justify; color:white;">Que le Seigneur vous bénisse abondamment pour votre geste 💚.</p>
+          <p style="text-align: justify; color:white;">Que le Seigneur vous bénisse abondamment pour votre geste.</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-4 g-4">
@@ -68,6 +85,7 @@ include (__DIR__ ."/../includes/header.php");
 
       </div>
     </section><!-- End Pricing Section -->
+  </body>
 
  <!-- ======= Footer ======= -->
  <?php include __DIR__ ."/../includes/footer.php";  ?>

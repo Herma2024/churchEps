@@ -11,7 +11,7 @@
       <div class="col-lg-3 col-md-6 footer-contact">
       <h4>Nos adresses et Contacts</h4>
         <p>
-          Sise, 48 Wenge <br>
+          Sise, 18 Wenge <br>
           Righini, Lemba<br>
           Kinshasa/RDC <br><br>
           <strong>Téléphone:</strong> +243 810356031<br>
@@ -22,11 +22,11 @@
       <div class="col-lg-2 col-md-6 footer-links">
         <h4>Rejoignez-nous</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="index.php">Accueil</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Evénements</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Donner</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Eglise</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Nos extensions</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="<?php echo BASE_URL; ?>index.php">Accueil</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="<?php echo BASE_URL; ?>pages/apropos.php">Apropos</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="<?php echo BASE_URL; ?>pages/don.php">Donner</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="<?php echo BASE_URL; ?>">Eglise</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="<?php echo BASE_URL; ?>pages/contact.php">Contact</a></li>
         </ul>
       </div>
 
@@ -57,8 +57,16 @@
 
   <div class="me-md-auto text-center text-md-start">
     <div class="copyright">
-      &copy; Copyright <strong><span>Eglise Pentecotiste des Secouristes</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>Eglise Pentecotiste des Secouristes</span></strong>. Tous Droits Réservés.-
+      
     </div>
+     <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Réalisé par <a href="https://bootstrapmade.com/">Hermans IMBALEVA</a>
+      </div>
     
   </div>
   
@@ -72,6 +80,7 @@
 </footer>
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
   <!-- Vendor JS Files -->
   <script src="<?php echo BASE_URL; ?>assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="<?php echo BASE_URL; ?>assets/vendor/aos/aos.js"></script>
@@ -80,10 +89,41 @@
   <script src="<?php echo BASE_URL; ?>assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="<?php echo BASE_URL; ?>assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="<?php echo BASE_URL; ?>assets/vendor/php-email-form/validate.js"></script>
+  <script src="<?php echo BASE_URL; ?>assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="<?php echo BASE_URL; ?>assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
 
-  <!-- Template Main JS File -->
+  
+  <script src="<?php echo BASE_URL; ?>assets/js/vendor/jquery-1.11.2.min.js"></script>
   <script src="<?php echo BASE_URL; ?>assets/js/main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  
+  <script src="<?php echo BASE_URL; ?>assets/js/jquery.magnific-popup.js"></script>
+  <script src="<?php echo BASE_URL; ?>assets/js/jquery.easing.1.3.js"></script>
+  <script src="<?php echo BASE_URL; ?>assets/js/slick.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>assets/js/jquery.collapse.js"></script>
+  <script src="<?php echo BASE_URL; ?>assets/vendor/jquery.easing.1.3.js"></script>
+
+
+            <!-- paradise slider js -->
+
+
+            <script src="http://maps.google.com/maps/api/js?key=AIzaSyD_tAQD36pKp9v4at5AnpGbvBUsLCOSJx8"></script>
+            <script src="<?php echo BASE_URL; ?>assets/js/gmaps.min.js"></script>
+
+            <script>
+                            function showmap() {
+                                var mapOptions = {
+                                    zoom: 8,
+                                    scrollwheel: false,
+                                    center: new google.maps.LatLng(-34.397, 150.644),
+                                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                                };
+                                var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+                                $('.mapheight').css('height', '350');
+                                $('.maps_text h3').hide();
+                            }
+
+            </script>
+
 </body>
 
 </html>

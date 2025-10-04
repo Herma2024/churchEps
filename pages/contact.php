@@ -1,8 +1,23 @@
 <?php
 $page_title = "Contacte";
-include (__DIR__ ."/../includes/header.php");
+include (__DIR__ ."/../includes/header2.php");
 ?>
   <!-- ======= Contact Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+           
+                 <h2>Contactez-nous</h2>
+          
+          <ol>
+            <li><a href="<?php echo BASE_URL; ?>index.php">Accueil</a></li>
+            <li>Contact</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs Section -->
     <section id="contact" class="contact mt-5">
       <div class="container"> 
 
@@ -66,4 +81,7 @@ include (__DIR__ ."/../includes/header.php");
 
       </div>
     </section><!-- End Contact Section -->
+
+    
+
     <?php include __DIR__ ."/../includes/footer.php";  ?>

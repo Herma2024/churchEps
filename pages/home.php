@@ -1,14 +1,23 @@
 <!-- HEAD -->
 
-  <!-- ======= Hero Section ======= -->
+
+    <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-     
-      <h1>ÉGLISE PENTECÔTISTE DES SECOURISTES</h1>
-      <h2>C'est une église dont la foi est fondée sur la personne du Seigneur Jesus-Christ. </h2>
-      
-    </div>
-  </section><!-- End Hero Section -->
+  <!-- Slides -->
+  <div class="slide active" style="background-image: url('<?php echo BASE_URL; ?>assets/img/bg.jpg');"></div>
+  <div class="slide" style="background-image: url('<?php echo BASE_URL; ?>assets/img/clt8.jpg') ;"></div>
+  <div class="slide" style="background-image: url('<?php echo BASE_URL; ?>assets/img/eps3.jpg');"></div>
+  <!-- Overlay sombre -->
+  <div class="overlay"></div>
+  <!-- Contenu -->
+  <div class="hero-content container text-center">
+    <h1>ÉGLISE PENTECÔTISTE DES SECOURISTES</h1>
+    <p>
+      C'est une église dont la foi est fondée sur la personne du Seigneur Jesus-Christ.
+    </p>
+   
+  </div>
+</section><!-- End Hero Section -->
 
   <main id="main" >
     
@@ -21,7 +30,7 @@
                 
             </div>
             
-            <p class="lead " style="text-align: justify; text-justify:inter-word;">
+            <p class="col-xl-8 offset-xl-2 text-center" >
             <strong>L'ÉGLISE PENTECÔTISTE DES SECOURISTES</strong> est une église dynamique et accueillante qui croit en la puissance de Dieu pour transformer les vies. Nous sommes engagés à servir Dieu et à répandre son amour à travers nos actions et nos prières.
             </p>
             <a href="<?php echo BASE_URL; ?>pages/apropos.php" class="btn btn-danger btn-lg mt-3">Rejoignez-nous</a>
@@ -33,7 +42,7 @@
       object-fit:cover>
       <div class="container"data-aos="zoom-in" data-aos-delay="100">
 
-        <div class="text-center mt-5" style="text-align: justify" >
+        <div class="col-xl-8 offset-xl-2 text-center mt-5" style="text-align: justify" >
           <h3>Notre Histoire</h3>
           <p> L'Eglise Pentecotiste des Secouriste est une Eglise dont la fois est fondée sur la personne du Seigneur Jesus Christ qui répand son évangile avec un message d'amour. 
             Ejiba YAMAMPIA en est le fondateur et Archevêque principal. L'Eglise Pentecotiste des Secouriste diffuse ses cultes sur internet à travers Facebook et YouTube.</p>
@@ -44,13 +53,13 @@
     </section>
     <!-- Fin histoire Section -->
     
- <section id="events" class="py-5 bg-light">
+ <section id="events" class=" events py-5 bg-light">
     <div class="container text-center"  data-aos="fade-down" data-aos-delay="100">
           <div class="section-title">
           <h2 class="text-center mb-4">Nos Événements</h2>
                 
           </div>
-            <p class="lead">
+            <p class="col-xl-8 offset-xl-2 text-center">
               Restez informé de nos événements spéciaux, tels que les conférences, les concerts et les retraites spirituelles. Rejoignez-nous en remplissant ce formulaire, que le Seigneur Jesus-Christ vous benisse.
             </p>
    
@@ -81,14 +90,14 @@
                   <div class="carousel-inner">
                     <!-- Exemple 1 -->
                     <div class="carousel-item active">
-                      <div class="d-flex justify-content-center align-items-center">
+                      <div class="d-flex justify-content-center align-items-center " data-aos="fade-up" data-aos-delay="100">
                         <img src="<?php echo BASE_URL; ?>assets/img/event/event1.jpg" class="d-block img-auto rounded" alt="Évènement 1">
                         
                       </div>
                     </div>
                     <!-- Exemple 2 -->
                     <div class="carousel-item">
-                    <div class="d-flex justify-content-center align-items-center">
+                    <div class="d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
                       <img src="<?php echo BASE_URL; ?>assets/img/event/event2.jpg" class="d-block img-auto rounded" alt="Évènement 2">
                       
                     </div>
@@ -105,8 +114,8 @@
   <!-- Évènements en cours -->
               <div class="tab-pane fade" id="encours" role="tabpanel">
                   <div class="row g-4">
-                   <div class="col-md-8">
-                      <div class="card shadow-sm ">
+                   <div class="col-xl-8 offset-xl-2">
+                      <div class="card shadow-sm " data-aos="fade-up" data-aos-delay="100">
                         <img src="<?php echo BASE_URL; ?>assets/img/event/event4.jpg" class="card-img-top d-inline-block" alt="Évènement passé 2">
                         <div class="card-body">
                           <h5 class="card-title">Conférence biblique</h5>
@@ -120,17 +129,17 @@
                 <div class="tab-pane fade" id="passes" role="tabpanel">
                   <div class="row g-4">
                     <div class="col-md-6">
-                      <div class="card shadow-sm">
-                        <img src="<?php echo BASE_URL; ?>assets/img/event/event3.jpg" class="card-img-top" alt="Évènement passé 1">
+                      <div class="card shadow-sm" data-aos="fade-up" data-aos-delay="100" >
+                        <img src="<?php echo BASE_URL; ?>assets/img/event/event3.jpg" class="img-fluid" alt="Évènement passé 1">
                         <div class="card-body">
                           <h5 class="card-title">Veillée de prière</h5>
                           <p class="card-text">Passée le 10 août 2025</p>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-down" data-aos-delay="100">
                       <div class="card shadow-sm">
-                        <img src="<?php echo BASE_URL; ?>assets/img/event/event4.jpg" class="card-img-top" alt="Évènement passé 2">
+                        <img src="<?php echo BASE_URL; ?>assets/img/event/event4.jpg" class="img-fluid" alt="Évènement passé 2">
                         <div class="card-body">
                           <h5 class="card-title">Conférence biblique</h5>
                           <p class="card-text">Passée le 5 août 2025</p>
@@ -146,7 +155,7 @@
           </div>
           
   </section>  <!-- ======= End evenment Section ======= -->
-    
+ 
 
 
     <!-- ======= Services Section ======= -->
@@ -154,12 +163,12 @@
       <div class="container"data-aos="fade-up">
 
         <div class="section-title">
-          <h2 class="text-center mb-4">Nos programmes</h2>
+          <h2 class="text-center mt-5">Nos programmes</h2>
          
         </div>
 
       <div class="row" >
-        <p class="lead" style="text-align: justify;">Découvrez un programme riche enseignements bibliques, en prières ferventes et en partages fraternels. Ensemble, avancons dans la foi et glorifions Dieu dans la joie et l'amour. Que ce temps soit pour vous une source de bénédictions abondantes!</p>
+        <p class="col-xl-8 offset-xl-2 text-center" >Découvrez un programme riche enseignements bibliques, en prières ferventes et en partages fraternels. Ensemble, avancons dans la foi et glorifions Dieu dans la joie et l'amour. Que ce temps soit pour vous une source de bénédictions abondantes!</p>
             <div class="col-md-6 col-lg-3 d-flex " data-aos="zoom-in">
                 <div class="flex-fill p-3">
                   <div class="icon-box">
@@ -213,7 +222,8 @@
 
       </div>
     </section><!-- End Services Section -->
-    <section id="portfolio-details" class="portfolio-details">
+    
+   <!-- <section id="portfolio-details" class="portfolio-details">
       <div class="container">
        
           
@@ -224,7 +234,7 @@
                       
                           <div class="carousel-inner text-center p-5 bg-white shadow rounded ">
                             <div class="carousel-item"> 
-                            <!-- Les versets seront injectés ici via JS -->
+                          Les versets seront injectés ici via JS 
                             </div>
                           </div>
                    
@@ -233,16 +243,16 @@
             </div> 
           </div>
         
-      </section><!-- End Portfolio Details Section -->
+      </section> End Portfolio Details Section -->
 
    
 <!-- ======= Call To Action Section ======= -->
-<section id="don" class="call-to-action" style="height: 600px;">
+<section id="don" class="call-to-action">
        <div class="container">
          <div class="row" data-aos="zoom-in">
-            <div class="col-lg-9 text-center text-lg-start" style="text-align: justify;">
-              <h3 class="cta-title">FAIRE UN DON EN LIGNE</h3>
-              <p class="cta-text" style="text-align: justify">Un don ponctuel est une manière
+            <div class="col-xl-9 text-center text-lg-start roomy-70 m-bottom-70">
+              <h3 class="cta-title">Faire le don en ligne</h3>
+              <p>Un don ponctuel est une manière
                 simple et libre de contribuer à
                 l’amélioration du quotidien des personnes en grande précarité. Chaque geste de 
                 générosité apporte un soutien essentiel à ceux qui manquent 
@@ -251,7 +261,7 @@
                 l’espoir et participer à la construction d’un avenir plus humain.
               </p>
             </div>
-            <div class="col-lg-3 cta-btn-container text-center ">
+            <div class="col-xl-3 cta-btn-container text-center ">
               <a class="cta-btn align-middle" href="<?php echo BASE_URL; ?>pages/Don.php">Faire un don</a>
             </div>
          </div>
@@ -273,7 +283,7 @@
          
              </div>
               <div class="member-img">
-                <img src="<?php echo BASE_URL; ?>assets/img/image3.jpg" class="img-fluid" alt="">
+                <img src="<?php echo BASE_URL; ?>assets/img/image3.jpg" class="img-fluid "data-aos="zoom-out" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -282,9 +292,9 @@
                 </div>
               </div>
               <div class="member-info" data-aos="fade-up">
-                <h4>EJIBA YAMAMPIA Evariste</h4>
+                <h4>EJIBA YAMAPIA Evariste</h4>
                 <h4>Archeveque</h4>
-                <p class="lead">L'Archeveque Ejiba YAMAMPIA est le Président International de l'Eglise Pentecôtiste des Secouristes.Il est le coordonnateur de l'Eglise du Reveil au Congo(ERC).</p>
+                <p class="col-xl-8 offset-xl-2 text-center">L'Archeveque Ejiba YAMAPIA est le Président International de l'Eglise Pentecôtiste des Secouristes.Il est le coordonnateur de l'Eglise du Reveil au Congo(ERC).</p>
                 <a href="<?php echo BASE_URL; ?>pages/pastorStory.php" class="btn btn-outline-danger btn-lg mt-3">Biographie</a>
                 
               </div>
@@ -299,7 +309,80 @@
       </div>
     </section>
     <!-- Fin Section -->
+        <!--Video section-->
+   
+      <section id="video" class="video mb-5">
+        <div  class="container my-5 ">
+        
+        <div class="overlay"></div>
+
+          <div id="videoCarousel" class="carousel slide" data-bs-interval="false">
+            <div class="carousel-inner">
+                <div class="row g-4">
+                  <div class="carousel-item active">
+                   
+                    <div class="main_video roomy-100 m-top-100 m-bottom-100 text-center">
+                      
+                        <div class="video_text text-center">
+                            <a href="http://www.youtube.com/watch?v=7HKoqNJtMTQ" class="video-link"><span class="bi bi-play-fill"></span></a>
+                        </div>
+                         </div>
+                   
+                    <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-2">
+                            <h5>Culte de dimanche</h5>
+                            <small>📅 Publiée le 25 Août 2025</small>
+                    </div>
+                 </div>
+                 <div class="carousel-item">
+                  
+                    <div class="main_video roomy-100 m-top-100 m-bottom-100 text-center">
+                      <div class="video_text text-center">
+                          <a href="http://www.youtube.com/watch?v=7HKoqNJtMTQ" class="video-link"><span class="bi bi-play-fill"></span></a>
+                      </div>
+                      </div>
+                 
+                    <!-- Caption -->
+                    <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-2">
+                      <h5>Seminaire</h5>
+                      <small>📅 Publiée le 18 Août 2025</small>
+                    </div>
+                  </div>
+                </div>
+
+                     <!-- Contrôles -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Précédent</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Suivant</span>
+          </button>
+          <!-- Indicateurs numérotés -->
+          <!-- Contrôles -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Précédent</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Suivant</span>
+          </button>
+          <!-- Indicateurs numérotés -->
+          <div class="carousel-indicators numbered-indicators">
+            <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="1"></button>
+     
+          </div>
+        </div>
+      </div>
+      </div>
+             
+  </section><!--End off video section -->
+
  <!-- Media Section -->
+   <!-- 
  <div  class="container my-5 ">
   <h3 class="text-center mb-4">📺Communication & Media</h3>
   
@@ -327,7 +410,7 @@
                       <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ"
                               title="YouTube video" allowfullscreen></iframe>
                     </div>
-                    <!-- Caption -->
+                   
                     <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-2">
                       <h5>Seminaire</h5>
                       <small>📅 Publiée le 18 Août 2025</small>
@@ -338,7 +421,7 @@
                       <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ"
                               title="YouTube video" allowfullscreen></iframe>
                     </div>
-                    <!-- Caption -->
+                   
                     <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-2">
                       <h5>Culte de dimanche</h5>
                       <small>📅 Publiée le 11 Août 2025</small>
@@ -350,7 +433,7 @@
            </div>
           </div>
         </div>
-        <!-- Contrôles -->
+      
         <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
             <span class="visually-hidden">Précédent</span>
@@ -359,8 +442,8 @@
             <span class="carousel-control-next-icon"></span>
             <span class="visually-hidden">Suivant</span>
           </button>
-          <!-- Indicateurs numérotés -->
-          <!-- Contrôles -->
+         
+
           <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
             <span class="visually-hidden">Précédent</span>
@@ -369,7 +452,7 @@
             <span class="carousel-control-next-icon"></span>
             <span class="visually-hidden">Suivant</span>
           </button>
-          <!-- Indicateurs numérotés -->
+         
           <div class="carousel-indicators numbered-indicators">
             <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="0" class="active">1</button>
             <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="1">2</button>
@@ -378,9 +461,9 @@
           </div>
       </div>
   </div>
-
+-->
   <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact mt-5">
       <div class="container"> 
 
         <div class="section-title">
@@ -448,29 +531,14 @@
    <!-- ======= Footer ======= -->
 
  <!-- ======= END Footer ======= -->
- <script>
-  // Tableau de versets
-const versets = [
-  "Jean 3:16 - Car Dieu a tant aimé le monde qu'il a donné son Fils unique...",
-  "Psaume 23:1 - L’Éternel est mon berger; je ne manquerai de rien.",
-  "Philippiens 4:13 - Je puis tout par celui qui me fortifie.",
-  "Josué 1:9 - Ne t’ai-je pas donné cet ordre: Fortifie-toi et prends courage ?",
-  "Romains 8:28 - Toutes choses concourent au bien de ceux qui aiment Dieu."
-];
-// Calculer l’index du jour
-const today = new Date();
-const index = today.getDate() % versets.length;
-// Cibler UNIQUEMENT le carrousel des versets
-const carouselInner = document.querySelector("#versetCarousel .carousel-inner");
-// Injecter les versets dans ce carrousel
-versets.forEach((verset, i) => {
-  const div = document.createElement("div");
-  div.classList.add("carousel-item");
-  if (i === index) div.classList.add("active"); // activer le verset du jour
-  div.innerHTML = `<h4>${verset}</h4>`;
-  carouselInner.appendChild(div);
-});
-
-        
-</script>
+<script>
+    let slides = document.querySelectorAll("#hero .slide");
+    let current = 0;
+    function showNextSlide() {
+      slides[current].classList.remove("active");
+      current = (current + 1) % slides.length;
+      slides[current].classList.add("active");
+    }
+    setInterval(showNextSlide, 5000);
+  </script>
 <!-- HEAD -->

@@ -17,20 +17,29 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
-
+<!-- Fonts -->
+  
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/slick.css">
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/slick-theme.css">
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/animate.css">
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/fonticons.css">
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/font-awesome.min.css">
+      
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/bootsnav.css">
   <!-- Vendor CSS Files -->
   <link href="<?php echo BASE_URL; ?>assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="<?php echo BASE_URL; ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="<?php echo BASE_URL; ?>assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="<?php echo BASE_URL; ?>assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link href="<?php echo BASE_URL; ?>assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="<?php echo BASE_URL; ?>assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+       <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/font-awesome.min.css">
   <!-- Template Main CSS File -->
   <link href="<?php echo BASE_URL; ?>assets/css/style.css" rel="stylesheet">
 
   <style>
-    .carousel-item img{
+    .events .carousel-item img{
       height: 500px;
       object-fit:cover;
       border-radius: 15px;
@@ -59,7 +68,7 @@
 
     }
     .numbered-indicators{
-      bottom: 10px;
+      bottom: 2px;
     }
 
     .custom-heart{
@@ -78,8 +87,20 @@
  </style>
 </head>
 
-<body>
-
+<body data-spy="scroll" data-target=".navbar-collapse">
+  
+<!-- Preloader-->
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                    <div class="object" id="object_four"></div>
+                </div>
+            </div>
+        </div> <!--End off Preloader-->
+  <div class="culmn"> 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex justify-content-between align-items-center">
