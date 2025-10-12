@@ -26,7 +26,7 @@ include (__DIR__ ."/../includes/header2.php");
     <div class="herm col-12 col-lg-6 d-flex align-items-stretch mb-4 mt-5 mb-lg-0" data-aos="fade-up">
       <div class="flex-fill p-3 d-flex">
         <div class="card shadow-lg border-0 rounded-3 flex-fill h-100">
-          <img src="<?php echo BASE_URL; ?>assets/img/ejiba1.png"
+          <img src="<?php echo BASE_URL; ?>assets/img/pastor.jpg"
                class="card-img-top rounded-top"
                alt="Visionnaire de l'église">
           <div class="card-body">

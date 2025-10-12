@@ -102,6 +102,13 @@
   <script src="<?php echo BASE_URL; ?>assets/js/jquery.collapse.js"></script>
   <script src="<?php echo BASE_URL; ?>assets/vendor/jquery.easing.1.3.js"></script>
 
+  <script src="<?php echo BASE_URL; ?>assets/js/jquery-1.11.1.min.js"></script>
+   
+  <script src="<?php echo BASE_URL; ?>assets/js/jquery.backstretch.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>assets/js/retina-1.1.0.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>assets/js/scripts.js"></script>
+
+
 
             <!-- paradise slider js -->
 

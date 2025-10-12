@@ -90,7 +90,7 @@
 <body data-spy="scroll" data-target=".navbar-collapse">
   
 <!-- Preloader-->
-        <div id="loading">
+       <!-- <div id="loading">
             <div id="loading-center">
                 <div id="loading-center-absolute">
                     <div class="object" id="object_one"></div>
@@ -99,7 +99,7 @@
                     <div class="object" id="object_four"></div>
                 </div>
             </div>
-        </div> <!--End off Preloader-->
+        </div> End off Preloader-->
   <div class="culmn"> 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
@@ -135,7 +135,7 @@
               </li>
               <li><a href="#">Nos extensions</a></li>
               
-              
+              <li><a href="<?php echo BASE_URL; ?>pages/pastorRDV.php">Rendez-vous pasteur</a></li>
             </ul>
           </li>
          

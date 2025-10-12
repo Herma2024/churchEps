@@ -25,6 +25,7 @@
       
         <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/magnific-popup.css">
         <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/bootsnav.css">
+        <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/form-elements.css">
 
   <link href="<?php echo BASE_URL; ?>assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="<?php echo BASE_URL; ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -92,7 +93,7 @@
                 </ul>
               </li>
               <li><a href="#">Nos extensions</a></li>
-              
+                <li><a href="<?php echo BASE_URL; ?>pages/pastorRDV.php">Rendez-vous pasteur</a></li>
               
             </ul>
           </li>
