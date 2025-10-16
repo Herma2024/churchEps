@@ -18,7 +18,7 @@ include (__DIR__ ."/../includes/header2.php");
 
       </div>
     </section><!-- End Breadcrumbs Section -->
-    <section id="contact" class="contact mt-5">
+    <section id="pages/contact" class="contact mt-5">
       <div class="container"> 
 
         <div class="section-title">
@@ -30,7 +30,7 @@ include (__DIR__ ."/../includes/header2.php");
 
         <div class="row mt-5 " data-aos="zoom-in">
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 mb-5">
                 <div class="info">
                 <div class="address">
                     <i class="bi bi-geo-alt"></i>

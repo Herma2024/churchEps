@@ -29,8 +29,8 @@ include (__DIR__ ."/../includes/header2.php");
           <img src="<?php echo BASE_URL; ?>assets/img/pastor.jpg"
                class="card-img-top rounded-top"
                alt="Visionnaire de l'église">
-          <div class="card-body">
-            <h3 class="card-title text-primary fw-bold">Archevêque Ejiba Yamapia Evariste</h3>
+          <div class="card-body text-center">
+            <h3 class="card-title text-dark fw-bold">Archevêque Ejiba Yamapia Evariste</h3>
             <p class="text-muted">Fondateur de l'Église Pentecôtiste des Secouristes</p>
           </div>
         </div>
@@ -50,16 +50,16 @@ include (__DIR__ ."/../includes/header2.php");
                 Il a organisé des campagnes d’évangélisation, que des séminaires, de conférences sur des thèmes variés à Kinshasa et partout dans le monde notamment au Canada et autres… 
           </p>
           <div class="text-center mt-3">
-            <button id="toggleBtn" class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#bioPlus" aria-expanded="false" aria-controls="bioPlus">
+            <button id="toggleBtn" class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#bioPlus" aria-expanded="false" aria-controls="bioPlus">
               Lire plus
-            </button>
+           </button>
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- Biographie longue en dessous, pleine largeur -->
-  <div class="row">
+    <div class="row">
     <div class="col-12">
       <div class="collapse " id="bioPlus">
         <div class="p-4 bg-light rounded shadow-sm mt-3 ">

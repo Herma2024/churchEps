@@ -6,7 +6,7 @@ include (__DIR__ ."/../includes/header2.php");
 $pasteurs = [
   1 => [
     "nom" => "Archevêque Ejiba Yamapia Evariste",
-    "photo" => BASE_URL . "assets/img/ejiba.jpeg",
+    "photo" => BASE_URL . "assets/img/pastor.jpg",
     "rdv_jours" => [
       "Tuesday" => ["08:00", "09:00"],
       "Thursday" => ["08:00", "09:00"]
@@ -14,7 +14,7 @@ $pasteurs = [
   ],
   2 => [
     "nom" => "Prophète EJIBA Eugène",
-    "photo" => BASE_URL . "assets/img/clt16.jpg",
+    "photo" => BASE_URL . "assets/img/clt18.jpg",
     "rdv_jours" => [
       "Wednesday" => ["10:00", "11:00"],
       "Friday" => ["14:00", "15:00"]
@@ -63,7 +63,7 @@ $max_rdv = 10;
 <section class="breadcrumbs">
   <div class="container">
     <div class="d-flex justify-content-between align-items-center">
-      <h2>Prendre rendez-vous avec un pasteur</h2>
+      <h2><?php echo $pasteur['nom']; ?> </h2>
       <ol>
         <li><a href="<?php echo BASE_URL; ?>index.php">Accueil</a></li>
         <li>RDV Pasteur</li>
@@ -77,14 +77,15 @@ $max_rdv = 10;
     <div class="row align-items-center justify-content-center">
       <!-- Photo agrandie -->
       <div class="col-lg-5 mb-4 mb-lg-0 text-center">
-        <img src="<?php echo $pasteur['photo']; ?>" alt="<?php echo $pasteur['nom']; ?>" class="rounded shadow-lg" style="width:100%; max-width:400px; height:auto; object-fit:cover;">
-        <h3 class="fw-bold mt-4"><?php echo $pasteur['nom']; ?></h3>
+      
+        <img src="<?php echo $pasteur['photo']; ?>" alt="<?php echo $pasteur['nom']; ?>" class="rounded shadow-lg img-fluid" style="width:100%; max-width:400px; height:auto; object-fit:cover;">
+      
       </div>
       <!-- Formulaire et horaires -->
       <div class="col-lg-7">
         <div class="card shadow border-0">
           <div class="card-body p-4">
-            <h4 class="mb-4 text-primary">Prendre rendez-vous</h4>
+            <h4 class="mb-4 text-danger">Remplissez le formulaire</h4>
             <form method="post" action="#">
               <div class="mb-3">
                 <label for="nom" class="form-label">Votre nom complet</label>
@@ -114,7 +115,7 @@ $max_rdv = 10;
                 <label for="motif" class="form-label">Motif du rendez-vous</label>
                 <textarea class="form-control" id="motif" name="motif" rows="2"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary w-100">Confirmer le RDV</button>
+              <button type="submit" class="btn btn-danger w-100">Confirmer le RDV</button>
             </form>
             <div class="mt-3">
               <small class="text-muted">* Un pasteur peut recevoir jusqu'à 10 RDV par créneau (20 le dimanche).</small>

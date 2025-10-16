@@ -5,10 +5,10 @@
 <footer id="footer">
 
 <div class="footer-top">
-  <div class="container"  data-aos="fade-up" data-aos-delay="100">
-    <div class="row">
+  <div class="container "  data-aos="fade-up" data-aos-delay="100">
+    <div class="row ms-3">
 
-      <div class="col-lg-3 col-md-6 footer-contact">
+      <div class="col-lg-5 col-md-6 footer-contact">
       <h4>Nos adresses et Contacts</h4>
         <p>
           Sise, 18 Wenge <br>
@@ -19,7 +19,7 @@
         </p>
       </div>
 
-      <div class="col-lg-2 col-md-6 footer-links">
+      <div class="col-lg-4 col-md-6 footer-links">
         <h4>Rejoignez-nous</h4>
         <ul>
           <li><i class="bx bx-chevron-right"></i> <a href="<?php echo BASE_URL; ?>index.php">Accueil</a></li>
@@ -33,21 +33,16 @@
       <div class="col-lg-3 col-md-6 footer-links">
         <h4>Nos services</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Prière</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Enseignement</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Soutien communautaire</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Jeunesse</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Media</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Evangelisation</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Protocole</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Jeunesse</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Intercession</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Chorale</a></li>
         </ul>
       </div>
 
-      <div class="col-lg-4 col-md-6 footer-newsletter " style="text-align: justify">
-        <h4>rejoignez nous par Newsletter</h4>
-        <p>Si voulez recevoir les nouvelles de l'eglises régulièrement par mail, veuillez remplir le formulaire ci-dessous</p>
-        <form action="" method="post">
-          <input type="email" name="email"><input type="submit" value="Souscrire">
-        </form>
-      </div>
+    
 
     </div>
   </div>

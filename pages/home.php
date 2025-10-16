@@ -10,7 +10,7 @@
   <!-- Overlay sombre -->
   <div class="overlay"></div>
   <!-- Contenu -->
-  <div class="hero-content container text-center">
+  <div class="hero-content container text-center" data-aos="zoom-in" data-aos-delay="100">
     <h1>ÉGLISE PENTECÔTISTE DES SECOURISTES</h1>
     <p>
       C'est une église dont la foi est fondée sur la personne du Seigneur Jesus-Christ.
@@ -24,7 +24,7 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="py-5 bg-light">
-        <div class="container text-center" data-aos="fade-down" data-aos-delay="100">
+        <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
             <div class="section-title">
             <h2 class="text-center mb-4">À propos de nous</h2>
                 
@@ -44,9 +44,9 @@
 
         <div class="col-xl-8 offset-xl-2 text-center mt-5" style="text-align: justify" >
           <h3>Notre Histoire</h3>
-          <p> L'Eglise Pentecotiste des Secouriste est une Eglise dont la fois est fondée sur la personne du Seigneur Jesus Christ qui répand son évangile avec un message d'amour. 
+          <p> L'Eglise Pentecotiste des Secouristes est une Eglise dont la fois est fondée sur la personne du Seigneur Jesus Christ qui répand son évangile avec un message d'amour. 
             Ejiba YAMAMPIA en est le fondateur et Archevêque principal. L'Eglise Pentecotiste des Secouriste diffuse ses cultes sur internet à travers Facebook et YouTube.</p>
-          <a class="cta-btn mt-5" href="<?php echo BASE_URL; ?>pages/notreHistoire.php">Savoir plus</a>
+          <a class="cta-btn mt-5" href="<?php echo BASE_URL; ?>pages/history.php">Savoir plus</a>
         </div>
 
       </div>
@@ -54,7 +54,7 @@
     <!-- Fin histoire Section -->
     
  <section id="events" class=" events py-5 bg-light">
-    <div class="container text-center"  data-aos="fade-down" data-aos-delay="100">
+    <div class="container text-center"  data-aos="fade-up" data-aos-delay="100">
           <div class="section-title">
           <h2 class="text-center mb-4">Nos Événements</h2>
                 
@@ -176,8 +176,8 @@
                         <img src="<?php echo BASE_URL; ?>assets/img/lg.jpg" alt="logo" >
                       </a>
                     <h4 class="title"><a href="">Mardi</a></h4>
-                    <p class="description">"Ecole Biblique pour tous tous"</p>
-                    <p class="description">De 17h à 19h</p>
+                    <p class="description">"Prière pour tous"</p>
+                    <p class="description">De 17h00 à 19h30</p>
                   </div>
                 </div>
               </div>
@@ -188,8 +188,8 @@
                         <img src="<?php echo BASE_URL; ?>assets/img/clt8.jpg" alt="logo"  >
                       </a>
                     <h4 class="title"><a href="">Jeudi</a></h4>
-                    <p class="description">Veuillée des Vaillants de Feu</p>
-                    <p class="description">De 23h à 05h</p>
+                    <p class="description">Etude biblique pour tous</p>
+                    <p class="description">De 17h00 à 19h00</p>
                   </div>
                 </div>
             </div>
@@ -201,8 +201,8 @@
                       <img src="<?php echo BASE_URL; ?>assets/img/clt11.jpg" alt="logo"  >
                       </a>
                     <h4 class="title"><a href="">Samedi</a></h4>
-                    <p class="description">Jeunesse et eveille patriotique </p>
-                    <p class="description">De 17h à 20h</p>
+                    <p class="description">Jeunesse pour les jeunes visionnaires</p>
+                    <p class="description">De 16h00 à 18h30</p>
                   </div>
                 </div>
             </div>
@@ -214,7 +214,7 @@
                       </a>
                     <h4 class="title"><a href="">Dimanche</a></h4>
                     <p class="description">Rejoignez-nous chaque dimanche pour le Culte dominical.</p>
-                    <p class="description">De 08h00 à 11h30</p>
+                    <p class="description">De 08h00 à 11h00</p>
                   </div>
                </div>
             </div>
@@ -248,9 +248,9 @@
    
 <!-- ======= Call To Action Section ======= -->
 <section id="don" class="call-to-action">
-       <div class="container">
+       <div class="container roomy-80">
          <div class="row" data-aos="zoom-in">
-            <div class="col-xl-9 text-center text-lg-start roomy-70 m-bottom-70">
+            <div class="col-xl-9 text-center text-lg-start ">
               <h3 class="cta-title">Faire le don en ligne</h3>
               <p>Un don ponctuel est une manière
                 simple et libre de contribuer à
@@ -262,7 +262,7 @@
               </p>
             </div>
             <div class="col-xl-3 cta-btn-container text-center ">
-              <a class="cta-btn align-middle" href="<?php echo BASE_URL; ?>pages/Don.php">Faire un don</a>
+              <a class="cta-btn align-middle " href="<?php echo BASE_URL; ?>pages/Don.php">Faire un don</a>
             </div>
          </div>
       </div>
@@ -274,7 +274,7 @@
 
         <div class="row text-center">
 
-          <div class="col-lg-8 col-md-6 d-flex align-items-stretch mx-auto d-block">
+          <div class="col-lg-8 col-md-12 d-flex align-items-stretch mx-auto d-block">
             <div class="member " data-aos="fade-right">
              <div class="section-title mt-5">
             
@@ -283,7 +283,7 @@
          
              </div>
               <div class="member-img">
-                <img src="<?php echo BASE_URL; ?>assets/img/image3.jpg" class="img-fluid "data-aos="zoom-out" alt="">
+                <img src="<?php echo BASE_URL; ?>assets/img/clt15.jpg" class="img-fluid "data-aos="zoom-out" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -532,7 +532,7 @@
 
  <!-- ======= END Footer ======= -->
 <script>
-    let slides = document.querySelectorAll("#hero .slide");
+    let slides = document.querySelectorAll("acceuil .slide");
     let current = 0;
     function showNextSlide() {
       slides[current].classList.remove("active");
@@ -542,3 +542,14 @@
     setInterval(showNextSlide, 5000);
   </script>
 <!-- HEAD -->
+
+<script>
+document.querySelectorAll('#eventTabs .nav-link').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    document.querySelectorAll('#eventTabs .nav-link').forEach(function(t){
+      t.classList.remove('active');
+    });
+    this.classList.add('active');
+  });
+});
+</script>

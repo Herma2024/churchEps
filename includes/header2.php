@@ -77,10 +77,10 @@
           <li><a class="nav-link scrollto" href="<?php echo BASE_URL; ?>pages/apropos.php">A propos</a></li>
                    
           <li><a class="nav-link scrollto" href="<?php echo BASE_URL; ?>pages/Don.php">Donner</a></li>
-          <li><a href="blog.html"></a></li>
+          
           <li class="dropdown"><a href="#"><span>Eglise</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="<?php echo BASE_URL; ?>pages/notreHistoire.php">Notre histoire</a></li>
+              <li><a href="<?php echo BASE_URL; ?>pages/history.php">Notre histoire</a></li>
               <li class="dropdown"><a href="#"><span>Nos deparments</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Media</a></li>

@@ -34,13 +34,13 @@ include (__DIR__ ."/../includes/header2.php");
   </p>
       </div>
       <!-- Images à droite -->
-      <div class="col-lg-6 d-flex justify-content-center">
+      <div class="col-lg-6 col-md-12 d-flex justify-content-center">
         <div class="position-relative" style="width:380px; height:380px;">
           <img src="<?php echo BASE_URL; ?>assets/img/don/don5.jpg" 
                alt="Adoration" 
                class="rounded-circle shadow position-absolute" 
                style="width: 300px; height: 300px; object-fit: cover; top: 0; right: 0; z-index:2;">
-          <img src="<?php echo BASE_URL; ?>assets/img/don/don3.jpg" 
+          <img src="<?php echo BASE_URL; ?>assets/img/don/don6.jpg" 
                alt="Entraide" 
                class="rounded-circle shadow position-absolute" 
                style="width: 160px; height: 160px; object-fit: cover; bottom: 0; left: 0; z-index:1; border: 6px solid #fff;">
@@ -57,7 +57,7 @@ include (__DIR__ ."/../includes/header2.php");
 
           <div class="row row-cols-1 row-cols-md-4 g-4">
 
-          <div class="col-lg-4  d-flex" data-aos="fade-up">
+          <div class="col-lg-4 col-md-12 d-flex" data-aos="fade-up">
             <div class="box recommended flex-fill p-3">
             
               <h3>Dîmes et Offrandes</h3>
@@ -71,7 +71,7 @@ include (__DIR__ ."/../includes/header2.php");
             </div>
           </div>
 
-          <div class="col-lg-4 d-flex"data-aos="fade-up">
+          <div class="col-lg-4 col-md-12 d-flex"data-aos="fade-up">
             <div class="box recommended flex-fill p-3">
               
               <h3>Fonds de secours</h3>
@@ -86,7 +86,7 @@ include (__DIR__ ."/../includes/header2.php");
             </div>
           </div>
 
-          <div class="col-lg-4 d-flex"data-aos="fade-up">
+          <div class="col-lg-4 col-md-12 d-flex"data-aos="fade-up">
             <div class="box recommended flex-fill p-3">
               <h3>Offrande de prière et requête de prière</h3>
               <p style="text-align: justify; " >
