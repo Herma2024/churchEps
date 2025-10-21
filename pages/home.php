@@ -531,25 +531,6 @@
    <!-- ======= Footer ======= -->
 
  <!-- ======= END Footer ======= -->
-<script>
-    let slides = document.querySelectorAll("acceuil .slide");
-    let current = 0;
-    function showNextSlide() {
-      slides[current].classList.remove("active");
-      current = (current + 1) % slides.length;
-      slides[current].classList.add("active");
-    }
-    setInterval(showNextSlide, 5000);
-  </script>
-<!-- HEAD -->
 
-<script>
-document.querySelectorAll('#eventTabs .nav-link').forEach(function(tab){
-  tab.addEventListener('click', function(){
-    document.querySelectorAll('#eventTabs .nav-link').forEach(function(t){
-      t.classList.remove('active');
-    });
-    this.classList.add('active');
-  });
-});
-</script>
+
+

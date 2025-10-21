@@ -16,7 +16,7 @@ include (__DIR__ ."/../includes/header2.php");
   </div>
 </section>
 
-<section class="don-hero py-5 bg-white">
+<section id="pages/don" class="don-hero py-5 bg-white">
   <div class="container">
     <div class="row align-items-center">
       <!-- Texte à gauche -->
@@ -52,7 +52,7 @@ include (__DIR__ ."/../includes/header2.php");
   </div>
 </section>
 
-<section id="pricing" class="pricing bg-light">
+<section id="pages/don" class="pricing bg-light">
       <div class="container mt-5 mb-5">
 
           <div class="row row-cols-1 row-cols-md-4 g-4">

@@ -53,7 +53,8 @@ $options = isset($options_by_type[$type]) ? $options_by_type[$type] : $options_b
       <h2>Faire un don</h2>
       <ol>
         <li><a href="<?php echo BASE_URL; ?>index.php">Accueil</a></li>
-        <li>Donner</li>
+        <li><a href="<?php echo BASE_URL; ?>pages/don.php">Donner</a></li>
+        <li>Effectuer don</li>
       </ol>
     </div>
   </div>
@@ -74,13 +75,14 @@ $options = isset($options_by_type[$type]) ? $options_by_type[$type] : $options_b
         <div class="card shadow border-0">
           <div class="card-body p-4">
             <h4 class="mb-4 text-center text-danger">Choisir le montant</h4>
+            <hr>
             <form>
               <div class="mb-3 text-center">
                 <div class="btn-group mb-2" role="group">
                   <button type="button" class="btn btn-outline-danger active">Unique</button>
-                  <button type="button" class="btn btn-outline-danger">Mensuel</button>
-                  <button type="button" class="btn btn-outline-danger">Trimestriel</button>
-                  <button type="button" class="btn btn-outline-danger">Annuel</button>
+                  <button type="button" class="btn btn-success">Mensuel</button>
+                  <button type="button" class="btn btn-success">Trimestriel</button>
+                  <button type="button" class="btn btn-success">Annuel</button>
                 </div>
                 
                 <input type="number" class="form-control mb-2" placeholder="$ Montant libre">
@@ -116,20 +118,25 @@ $options = isset($options_by_type[$type]) ? $options_by_type[$type] : $options_b
     <div class="row g-4 justify-content-center">
       <!-- PayPal -->
       <div class="col-md-6 col-lg-4">
-        <div class="h-100 rounded-4 p-4 text-white" style="background: linear-gradient(135deg, #2a6edb, #3a8dde);">
+        <div class="h-100 rounded-4 p-4 text-white text-center shadow" style="background: linear-gradient(135deg, #2a6edb, #3a8dde);">
           <h3 class="fw-bold mb-3" style="font-family: 'Arial Black', Arial, sans-serif;">
             <span style="font-style:italic;">Cash</span><span style="font-weight:normal;">App</span>
           </h3>
-          <a href="mailto:eglisepentecotiste@noyau-compassion.org" class="text-white d-block mb-1" style="text-decoration:underline;"></a>
-          <a href="mailto:orphelinatcompassion@noyau-compassion.org" class="text-white d-block mb-1" style="text-decoration:underline;"></a>
-          <a href="mailto:banquealimentaire@noyau-compassion.org" class="text-white d-block" style="text-decoration:underline;"></a>
-        </div>
+         
+              <div style="font-size:1.75rem;">
+                
+                $EvaristeEjiba
+                
+              </div>
+          <br>
+           <br>       
+         </div>
       </div>
       <!-- Virement Bancaire -->
       <div class="col-md-6 col-lg-4">
-        <div class="h-100 rounded-4 p-4 text-white" style="background: #e43c5c;">
-          <h4 class="fw-bold mb-3"><i class="bi bi-bank"></i> Virement Bancaire</h4>
-          <div style="font-size:0.95rem;">
+        <div class="h-100 rounded-4 p-4 text-white text-center shadow" style="background: #e43c5c;">
+          <h3 class="fw-bold mb-3"><i class="bi bi-bank"></i> Virement Bancaire</h3>
+          <div style="font-size:1.45rem;">
             <b>EQUITY BCDC</b> : CODE<br>
             SWIFT : 111100077725852 USD
             
@@ -138,9 +145,11 @@ $options = isset($options_by_type[$type]) ? $options_by_type[$type] : $options_b
       </div>
       <!-- Makabo -->
       <div class="col-md-6 col-lg-4">
-        <div class="h-100 rounded-4 p-4 text-white text-center" style="background: linear-gradient(135deg, #1de982, #1dc7e9);">
-          <h3 class="fw-bold mb-3"><i class="bi bi-phone"></i> MOBILE<br>MONEY</h3>
-          <a href="#" class="btn btn-outline-light">EN SAVOIR PLUS</a>
+        <div class="h-100 rounded-4 p-4 text-white text-center shadow" style="background: linear-gradient(135deg, #1de982, #1dc7e9);">
+          <h3 class="fw-bold mb-3"><i class="bi bi-phone"></i> Mobile Money</h3>
+          <br>
+          <br>
+          
         </div>
       </div>
       <!-- Mobile Money -->

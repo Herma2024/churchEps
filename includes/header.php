@@ -47,8 +47,8 @@
     }
     
   .navbar-brand img {
-        height :50px;
-        width : 50px;
+       
+        width : 60px;
         border-radius: 50%;
         object-fit: cover;
 
@@ -106,7 +106,7 @@
     <div class="container d-flex justify-content-between align-items-center">
 
     <a class="navbar-brand" href="#">
-      <img src="<?php echo BASE_URL; ?>assets/img/lg.jpg" alt="logo" style="height:50px;">
+      <img src="<?php echo BASE_URL; ?>assets/img/lg.jpg" alt="logo" style="height:60px;">
             </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
@@ -119,7 +119,7 @@
                    
           <li><a class="nav-link scrollto" href="<?php echo BASE_URL; ?>pages/Don.php">Donner</a></li>
           
-          <li class="dropdown"><a href="#"><span>Eglise</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#eglise"><span>Eglise</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="<?php echo BASE_URL; ?>pages/history.php">Notre histoire</a></li>
               <li class="dropdown"><a href="#"><span>Nos deparments</span> <i class="bi bi-chevron-right"></i></a>

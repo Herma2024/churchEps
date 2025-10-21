@@ -8,24 +8,24 @@ $pasteurs = [
     "nom" => "Archevêque Ejiba Yamapia Evariste",
     "photo" => BASE_URL . "assets/img/pastor.jpg",
     "rdv_jours" => [
-      "Tuesday" => ["08:00", "09:00"],
-      "Thursday" => ["08:00", "09:00"]
+      "Mardi" => ["08:00", "09:00"],
+      "Jeudi" => ["08:00", "09:00"]
     ]
   ],
   2 => [
     "nom" => "Prophète EJIBA Eugène",
     "photo" => BASE_URL . "assets/img/clt18.jpg",
     "rdv_jours" => [
-      "Wednesday" => ["10:00", "11:00"],
-      "Friday" => ["14:00", "15:00"]
+      "Mercredi" => ["10:00", "11:00"],
+      "Jeudi" => ["14:00", "15:00"]
     ]
   ],
   3 => [
     "nom" => "Prophète KABULO Francis",
     "photo" => BASE_URL . "assets/img/clt17.jpg",
     "rdv_jours" => [
-      "Monday" => ["09:00", "10:00"],
-      "Saturday" => ["16:00", "17:00"]
+      "Lundi" => ["09:00", "10:00"],
+      "Samedi" => ["16:00", "17:00"]
     ]
   ]
 ];
@@ -76,16 +76,16 @@ $max_rdv = 10;
   <div class="container">
     <div class="row align-items-center justify-content-center">
       <!-- Photo agrandie -->
-      <div class="col-lg-5 mb-4 mb-lg-0 text-center">
+      <div class="col-lg-5 col-md-12 mb-4 mb-lg-0 text-center">
       
-        <img src="<?php echo $pasteur['photo']; ?>" alt="<?php echo $pasteur['nom']; ?>" class="rounded shadow-lg img-fluid" style="width:100%; max-width:400px; height:auto; object-fit:cover;">
+        <img src="<?php echo $pasteur['photo']; ?>" alt="<?php echo $pasteur['nom']; ?>" class="rounded shadow-lg" style="width:100%; max-width:400px; height:auto; object-fit:contain;">
       
       </div>
       <!-- Formulaire et horaires -->
       <div class="col-lg-7">
         <div class="card shadow border-0">
           <div class="card-body p-4">
-            <h4 class="mb-4 text-danger">Remplissez le formulaire</h4>
+            <h4 class="mb-4 text-danger  font-weight-light">Remplissez le formulaire</h4>
             <form method="post" action="#">
               <div class="mb-3">
                 <label for="nom" class="form-label">Votre nom complet</label>

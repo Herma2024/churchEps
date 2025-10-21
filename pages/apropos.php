@@ -21,7 +21,7 @@ include (__DIR__ ."/../includes/header2.php");
 
       </div>
     </section><!-- End Breadcrumbs Section -->
-   <section id="apropos" class="pricing">
+   <section id="pages/apropos" class="pricing">
       <div class="container mt-5 mb-5 ">
 
            
@@ -38,19 +38,21 @@ include (__DIR__ ."/../includes/header2.php");
         <div class="container col-lg-6 mb-5 pt-5"  data-aos="fade-up" data-aos-delay="100">
             <div class="card shadow-lg p-4 rounded">
                 <div class="section-title">
-                    <h2 class="text-center mb-4">📋 Enregistrement des fideles</h2>
+                    <h2 class="text-center font-weight-light mb-4">Enregistrement des fideles</h2>
                         
                     </div>
                     
                     <form>
                     <!-- Nom -->
-                    <div class="mb-3">
-                        <label for="nom" class="form-label">Nom complet</label>
+                     <label for="nom" class="form-label">Nom complet</label>
+                    <div class="form-floating mb-3">
+                        
                         <input type="text" class="form-control" id="nom" placeholder="Entrez le nom complet" required>
                     </div>
                     <!-- Sexe -->
-                    <div class="mb-3">
-                        <label class="form-label">Sexe</label>
+                     <label class="form-label">Sexe</label>
+                    <div class="form-floating mb-3">
+                        
                         <select class="form-select" required>
                         <option value="">-- Sélectionnez --</option>
                         <option value="Homme">Homme</option>
@@ -58,20 +60,23 @@ include (__DIR__ ."/../includes/header2.php");
                         </select>
                     </div>
                     <!-- Date de naissance -->
-                    <div class="mb-3">
-                        <label for="naissance" class="form-label">Date de naissance</label>
+                    <label for="naissance" class="form-label">Date de naissance</label>
+                    <div class="form-floating mb-3">
+                       
                         <input type="date" class="form-control" id="naissance" required>
                     </div>
                     <!-- Contact -->
-                    <div class="mb-3">
-                        <label for="telephone" class="form-label">Téléphone</label>
+                      <label for="telephone" class="form-label">Téléphone</label>
+                    <div class="form-floating mb-3">
+                       
                         <input type="tel" class="form-control" id="telephone" placeholder="+243 ..." required>
                     </div>
                     <!-- Département -->
-                    <div class="mb-3">
-                        <label class="form-label">Département</label>
+                     <label class="form-label">Département</label>
+                    <div class="form-floating mb-3">
+                       
                         <select class="form-select" required>
-                        <option value="">-- Choisissez un département --</option>
+                        <option value="">-- Choisissez votre département --</option>
                         <option value="Chorale">🎶 Chorale</option>
                         <option value="Intercession">🙏 Intercession</option>
                         <option value="Évangélisation">📢 Évangélisation</option>
@@ -83,17 +88,19 @@ include (__DIR__ ."/../includes/header2.php");
                         </select>
                     </div>
                     <!-- Adresse -->
-                    <div class="mb-3">
-                        <label for="adresse" class="form-label">Adresse</label>
+                    <label for="adresse" class="form-label">Adresse</label>
+                    <div class="form-floating mb-3">
+                      
                         <textarea class="form-control" id="adresse" rows="2" placeholder="Votre adresse..." required></textarea>
                     </div>
                     <!-- Boutons -->
                     <div class="d-flex justify-content-between">
-                        <button type="reset" class="btn btn-outline-secondary">Annuler</button>
-                        <button type="submit" class="btn btn-outline-danger">Enregistrer</button>
+                        <button type="reset" class="btn btn-secondary">Annuler</button>
+                        <button type="submit" class="btn btn-danger">Enregistrer</button>
                     </div>
                     </form>
                 </div>
+               
             </div>
         
            

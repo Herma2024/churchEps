@@ -1,4 +1,4 @@
-<!-- ======= Footer ======= -->
+
 
 <!-- include/footer.php -->
 
@@ -55,13 +55,10 @@
       &copy; Copyright <strong><span>Eglise Pentecotiste des Secouristes</span></strong>. Tous Droits Réservés.-
       
     </div>
-     <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Réalisé par <a href="https://bootstrapmade.com/">Hermans IMBALEVA</a>
-      </div>
+      <div class="credits">
+         
+          Réalisé par <a href="https://hermansimbaleva.com/">Hermans IMBALEVA</a>
+        </div>
     
   </div>
   
@@ -105,26 +102,16 @@
 
 
 
-            <!-- paradise slider js -->
-
-
-            <script src="http://maps.google.com/maps/api/js?key=AIzaSyD_tAQD36pKp9v4at5AnpGbvBUsLCOSJx8"></script>
-            <script src="<?php echo BASE_URL; ?>assets/js/gmaps.min.js"></script>
-
-            <script>
-                            function showmap() {
-                                var mapOptions = {
-                                    zoom: 8,
-                                    scrollwheel: false,
-                                    center: new google.maps.LatLng(-34.397, 150.644),
-                                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                                };
-                                var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-                                $('.mapheight').css('height', '350');
-                                $('.maps_text h3').hide();
-                            }
-
-            </script>
+ <script>
+      document.querySelectorAll('.navbar .nav-link').forEach(function(link){
+        link.addEventListener('click', function(){
+          document.querySelectorAll('.navbar .nav-link').forEach(function(l){
+            l.classList.remove('active');
+          });
+          this.classList.add('active');
+        });
+      });
+</script>
 
 </body>
 

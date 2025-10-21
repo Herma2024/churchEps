@@ -270,7 +270,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #2dc997;
+  color: #e43c5c;
 }
 
 .navbar .dropdown:hover>ul {
@@ -441,6 +441,7 @@ h6 {
 #hero .slide.active {
   opacity: 1;
 }
+
 /* Overlay sombre */
 #hero .overlay {
   content: "";
@@ -482,6 +483,34 @@ h6 {
   .hero-content h1 { font-size: 3rem; }
   .hero-content p { font-size: 1.4rem; }
 }
+
+.form-floating {
+  position: relative;
+}
+.form-floating > .form-control, .form-floating > .datatable-input,
+.form-floating > .form-control-plaintext,
+.form-floating > .form-select,
+.form-floating > .datatable-selector {
+  height: calc(4rem + 2px);
+  line-height: 1.25;
+}
+.form-floating > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0.75rem;
+  overflow: hidden;
+  text-align: start;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  pointer-events: none;
+  border: 1px solid transparent;
+  transform-origin: 0 0;
+  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -904,6 +933,10 @@ Video Section style
     .navbar-brand {
         height: 60px;
         margin-left: 15px;
+    }
+    .navbar-img {
+        height: 60px;
+        
     }
 
     .navbar-collapse {

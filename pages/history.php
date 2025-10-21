@@ -16,7 +16,7 @@ include (__DIR__ ."/../includes/header2.php");
   </div>
 </section>
 
-<section class="history-hero py-5">
+<section id="eglise" class="history-hero py-5">
   <div class="container">
     <div class="row align-items-center">
       <!-- Images à gauche -->

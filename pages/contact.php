@@ -18,7 +18,7 @@ include (__DIR__ ."/../includes/header2.php");
 
       </div>
     </section><!-- End Breadcrumbs Section -->
-    <section id="pages/contact" class="contact mt-5">
+    <section id="contact" class="contact mt-5">
       <div class="container"> 
 
         <div class="section-title">
