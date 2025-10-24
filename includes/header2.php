@@ -22,6 +22,8 @@
         <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/animate.css">
         <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/fonticons.css">
         <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/font-awesome.min.css">
+        <link href="<?php echo BASE_URL; ?>assets/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="<?php echo BASE_URL; ?>assets/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
       
         <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/magnific-popup.css">
         <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/bootsnav.css">

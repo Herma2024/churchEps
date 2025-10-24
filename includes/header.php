@@ -28,6 +28,8 @@
         <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/magnific-popup.css">
         <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/bootsnav.css">
   <!-- Vendor CSS Files -->
+   <link href="<?php echo BASE_URL; ?>assets/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="<?php echo BASE_URL; ?>assets/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
   <link href="<?php echo BASE_URL; ?>assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="<?php echo BASE_URL; ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="<?php echo BASE_URL; ?>assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
