@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                                 // redirect based on role
                                 if ($roleName === 'full') {
-                                    header("Location: " . BASE_URL . "admin/adminFull.php");
+                                    header("Location: " . BASE_URL . "admin/admin2.php");
                                     exit;
                                 } elseif ($roleName === 'media') {
                                     header("Location: " . BASE_URL . "admin/adminMedia.php");

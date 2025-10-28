@@ -63,45 +63,31 @@
     
     <body class="sb-nav-fixed">    
            <div class="page-wrapper">
-                <nav class="sb-topnav navbar navbar-expand">
-                        <div class="container">
-                            <div class="brand-and-title">
-                                <a class="navbar-brand" href="<?php echo BASE_URL; ?>index.php">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/lg.jpg" alt="logo">
-                                </a>
-                                <div class="header__navbar d-none d-sm-block">
-                                    <h4>Eglise Pentecotiste des Secouristes</h4>
-                                </div>
-                            </div>
-
-                            <!-- top-right area: username dropdown + sidebar toggle -->
-                            <div class="top-right-row">
-                                    <div class="navbar-right">
-                                        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
-                                                <li class="nav-item dropdown">
-                                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
-                                                    <i class="fas fa-user fa-fw"></i> <?php echo htmlspecialchars($_SESSION['user_name'] ?? 'Admin'); ?>
-                                                    </a>
-                                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                                        <li><a class="dropdown-item" href="<?php echo BASE_URL; ?>login/register.php"><i class="fas fa-user"></i> Créer administrateur</a></li>
-                                                        <li><hr class="dropdown-divider" /></li>
-                                                        <li><a class="dropdown-item" href="<?php echo BASE_URL; ?>login/password.php"><i class="fas fa-gear"></i> Paramètre</a></li>
-                                                        <li><hr class="dropdown-divider" /></li>
-                                                        <li><a class="dropdown-item" href="<?php echo BASE_URL; ?>login/logout.php"><i class="fas fa-power-off"></i> Déconnecter</a></li>
-                                                    </ul>
-                                            </li>
-                                        </ul>
-
-                                        <button class="btn" id="sidebarToggle" title="Basculer le menu"><i class="fas fa-bars"></i></button>
-                                    </div>
-                            </div>
-
-                            <!-- mobile church name displayed under the logo -->
-                            <div class="header__navbar d-block d-sm-none w-100" style="margin-top:.35rem;">
-                            <h4 class="text-start">Eglise Pentecotiste des Secouristes</h4>
-                            </div>
-                        </div>
-                </nav>
+                <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <!-- Navbar Brand-->
+            <a class="navbar-brand ps-3" href="index.html">Eglise Pentecotiste des Secouristes</a>
+            <!-- Sidebar Toggle-->
+            <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+            <!-- Navbar Search-->
+            <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                <div class="input-group">
+                    <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+                    <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+            <!-- Navbar-->
+            <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#!">Settings</a></li>
+                        <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="#!">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
 
                
 
